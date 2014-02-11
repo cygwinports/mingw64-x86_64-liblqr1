@@ -1,0 +1,15 @@
+CROSS_HOST="x86_64-w64-mingw32"
+inherit cross gnome2
+
+NAME="mingw64-x86_64-liblqr1"
+VERSION=0.4.2
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="Liquid Rescale library for Win64 toolchain"
+DESCRIPTION="This is the Liquid Rescale library, which provides an
+implementation of the Seam Carving algorithm. The Seam Carving procedure aims
+at resizing pictures non uniformly while preserving their features, i.e.
+avoiding distortion of the important parts."
+HOMEPAGE="http://liblqr.wikidot.com/"
+SRC_URI="http://liblqr.wikidot.com/local--files/en:download-page/liblqr-1-${VERSION}.tar.bz2"
+SRC_DIR="liblqr-1-${VERSION}"
